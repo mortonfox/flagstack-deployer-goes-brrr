@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Flagstack Deployer goes brrr",
+    "version": "0.0.1",
+
+    "description": "Adds a shortcut key to deploy a green flag",
+
+    "page_action": {
+	"default_title": "flagstack_deployer_goes_brrr"
+    },
+
+    "content_scripts": [
+	{
+	    "matches": [
+		"*://*.flagstack.net/map"
+	    ],
+	    "js": ["main.js"]
+	}
+    ]
+}
