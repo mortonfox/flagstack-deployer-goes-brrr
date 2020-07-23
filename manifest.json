@@ -12,7 +12,7 @@
     "content_scripts": [
 	{
 	    "matches": [
-		"*://*.flagstack.net/map"
+		"*://*.flagstack.net/map*"
 	    ],
 	    "js": ["main.js"]
 	}
