@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Flagstack Deployer goes brrr",
-    "version": "0.0.2",
+    "version": "0.0.3",
 
     "description": "Adds a shortcut key to deploy a green flag",
 

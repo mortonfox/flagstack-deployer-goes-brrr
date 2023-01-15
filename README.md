@@ -16,4 +16,4 @@ Click on "Load unpacked extension" and navigate to the folder in which you clone
 
 ## Usage
 
-On the Flagstack map page, hit <kbd>Ctrl-G</kbd> and then <kbd>Enter</kbd> to deploy a green flag on the map.
+On the Flagstack map page, hit <kbd>Alt-G</kbd> and then <kbd>Enter</kbd> to deploy a green flag on the map.
