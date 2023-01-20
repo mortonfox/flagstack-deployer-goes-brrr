@@ -14,6 +14,8 @@ Go to the Chrome extensions page (chrome://extensions). You'll need to enable de
 
 Click on "Load unpacked extension" and navigate to the folder in which you cloned or extracted the source files. Select this folder to load the extension.
 
+After installing the extension, you can customize the keyboard shortcuts by going to the Chrome keyboard shortcuts page (chrome://extensions/shortcuts). The defaults are <kbd>Alt-G</kbd> to start a green flag deploy and <kbd>Alt-B</kbd> to save the flag.
+
 ## Usage
 
 On the Flagstack map page, hit <kbd>Alt-G</kbd> and then <kbd>Enter</kbd> to initiate the flag deploy.
