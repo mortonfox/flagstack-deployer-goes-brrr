@@ -1,20 +1,24 @@
 {
     "manifest_version": 3,
     "name": "Flagstack Deployer goes brrr",
-    "version": "0.0.3",
+    "version": "0.0.4",
 
-    "description": "Adds a shortcut key to deploy a green flag",
+    "description": "Adds shortcut keys to deploy a green flag",
 
-    "action": {
-	"default_title": "flagstack_deployer_goes_brrr"
+    "background": {
+        "service_worker": "background.js"
     },
 
-    "content_scripts": [
-	{
-	    "matches": [
-		"*://*.flagstack.net/map*"
-	    ],
-	    "js": ["main.js"]
-	}
-    ]
+    "commands": {
+        "deploy-green": {
+            "suggested_key": "Alt+G",
+            "description": "Deploy a green flag"
+        },
+        "deploy-save": {
+            "suggested_key": "Alt+B",
+            "description": "Click on save button"
+        }
+    },
+
+    "permissions": ["activeTab", "scripting"]
 }
